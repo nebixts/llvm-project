@@ -255,5 +255,5 @@ define nofpclass(inf norm sub) float @ret_only_zero_nan__log__select_maybe_pnorm
   ret float %result
 }
 
-attributes #0 = { denormal_fpenv(preservesign,preservesign) }
-attributes #1 = { denormal_fpenv(dynamic,dynamic) }
+attributes #0 = { denormal_fpenv(preservesign) }
+attributes #1 = { denormal_fpenv(dynamic) }

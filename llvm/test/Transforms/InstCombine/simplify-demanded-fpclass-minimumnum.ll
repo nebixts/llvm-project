@@ -2158,5 +2158,5 @@ define nofpclass(snan) float @cannot_fold_negative_or_zero__positive_or_zero_1__
 
 !0 = !{}
 
-attributes #0 = { denormal_fpenv(preservesign,preservesign) }
-attributes #1 = { denormal_fpenv(dynamic,dynamic) }
+attributes #0 = { denormal_fpenv(preservesign) }
+attributes #1 = { denormal_fpenv(dynamic) }
